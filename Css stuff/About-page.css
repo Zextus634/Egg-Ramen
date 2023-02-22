@@ -1,0 +1,23 @@
+/* page stuff */
+
+.something-goes-here {
+    display: flex;
+    justify-content: center;
+}
+
+.something-goes-here > .content {
+    width: 1000px;
+}
+
+.something-goes-here > .content > #All-Eggs {
+    width: 350px;
+    margin: 21px 20px 10px 0px;
+    float: left;
+    border: solid blue;
+}
+
+.something-goes-here > .content p {
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-size-adjust: 120%;
+}

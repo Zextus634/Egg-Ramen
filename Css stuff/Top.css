@@ -1,0 +1,106 @@
+body {
+    margin: 0px; 
+    font-family: 'Roboto Mono', monospace;
+}
+.Nav {
+    height: 290px;
+    background-color: rgb(247, 162, 93);
+    color: beige;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 70px 70px 70px;
+}
+
+/* Left side */
+.left {
+    display: flex;
+    align-items: center;
+
+}
+
+.left i {
+    font-size: 2em;
+}
+
+.THAT{
+    margin: 15px;
+}
+
+.Icon > .chips {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 7px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.chips > .time {
+    font-family: 'Chewy', cursive;
+    font-size: 0.8em;
+    color: rgb(209, 227, 222);
+}
+
+
+/* Middle */
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px
+}
+
+.Links > .Egg a {
+    font-family: 'Chewy', cursive;
+    color: lightseagreen;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.Links > .Egg {
+    width: 70px;
+    text-align: center;
+}
+
+.Links > .Egg a:hover {
+    color: mediumspringgreen;
+    letter-spacing: 2px;
+}
+
+/* Right */
+
+.right {
+    text-align: right;
+    display: flex;
+}
+
+.right > .pizza i {
+    font-size: 2.5em;
+}
+
+.pizza {
+    font-family: 'Odibee Sans', cursive;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.right > .pizza > div a {
+    color: rgb(209, 227, 222);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right > .pizza > div :hover {
+    color: aquamarine;
+}

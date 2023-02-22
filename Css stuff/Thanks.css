@@ -1,0 +1,42 @@
+.directions > h2 {
+    font-size: 2em;
+}
+
+.Top {
+    height: 290px;
+    background-color: teal;
+    color: beige;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 70px 70px 70px 70px;
+}
+.middle {
+    background-image: url(../Pictures/Other/kitty.gif);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom a {
+    text-decoration: none;
+    color: grey;
+    transition: 1.5s;
+}
+
+.bottom a :hover{
+    text-decoration: none;
+    color: green;
+    letter-spacing: 1px;
+}
+
+.back {
+    background-color: burlywood;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+}

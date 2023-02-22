@@ -1,0 +1,92 @@
+/* Kinky section */
+.kinks {
+    background-image: url(../Pictures/Food/scrambled-eggs-1.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: 'Odibee Sans', cursive;
+}
+
+.kinks > .top-heavy {
+    padding: 0.5px 15px;
+    background-color: rgb(247, 162, 93);
+    color: blue;
+    width: 260px;
+    border-radius: 8px;
+}
+
+.kinks > .bottom-heavy {
+    padding: 0.5px 20px;
+    background-color: salmon;
+    width: 70px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.kinks i {
+    font-size: 2em;
+}
+
+/* Blanket Styles */
+ 
+.blanket {
+    height: 400px;
+    background-image: url(../Pictures/Other/Abstract-noodles.jpg);
+    background-color: coral;
+    border-top: 10px solid whitesmoke;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.blanket > .magic {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blanket > .magic > .stuff {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: solid transparent;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.blanket > .magic > .stuff:hover {
+    border-bottom: solid gray;
+}
+
+.blanket > .magic > .stuff :nth-child(1) {
+    font-size: 3em;
+}
+
+.blanket > .magic > .stuff :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.blanket > .magic > .stuff :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.blanket > .magic > .stuff :nth-child(3) {
+    letter-spacing: 2px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}

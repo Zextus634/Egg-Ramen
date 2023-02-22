@@ -1,0 +1,19 @@
+/* Helpers */
+
+.space60 {
+    height: 60px;
+    width: 100%;
+}
+
+.space10 {
+    height: 10px;
+    width: 100%;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor:focus {
+    outline: none;
+}

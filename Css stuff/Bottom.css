@@ -1,0 +1,38 @@
+.bottom {
+    background-color: rgb(240, 154, 83);
+    color: beige;
+    padding: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom > .info > .chips {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.socials {
+    font-size: 2em;
+    margin: 25px;
+}
+
+.socials i {
+    color: black;
+    transition: 0.5s;
+}
+
+.socials i:hover {
+    color: greenyellow;
+}
+
+.Copyright {
+    color: rgb(52, 43, 43);
+}
+
+.bottom > .info > img {
+    filter: opacity(80%);
+}

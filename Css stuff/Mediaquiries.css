@@ -1,0 +1,91 @@
+@media (max-width: 615px) {
+   .Nav {
+    flex-direction: column;
+    height: 100%;
+    }
+    .Nav > .left {
+        order: 3;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .Nav > .center {
+        order: 1;
+        width: 100%;
+    }
+    .Nav > .right {
+        order: 4;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .Links {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .Links {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .kinks {
+        padding: 50px 10px;
+    }
+    .blanket {
+        height: 100%;
+    }
+    .blanket > .magic{
+        width: 100%;
+        flex-direction: column;
+    }
+    .bottom {
+        height: 100%;
+    }
+
+    /* SLiced Stuff */
+
+    .sliced > .sliced-again > .cut-three-times-kinda-sucks {
+        flex-direction: column;
+    }
+
+    .sliced > .back{
+        background-size: 550px;
+    }
+
+    .something-goes-here {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .something-goes-here > .content > #All-Eggs {
+        margin: 0px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+    .square {
+        grid-template-columns: 1fr !important; 
+    }
+
+    .square > .Square-photo {
+        order: 1;
+    }
+
+    .square > .Square-words {
+        order: 2;
+    }
+    /* CONTATCT */
+
+    .contact-data {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+
+.form input {
+    padding: 1.5rem 0rem;
+}
+
+.form textarea {
+    padding: 1.5rem 0rem;
+}
+}
